@@ -9,6 +9,7 @@ import 'package:http/http.dart' as http;
 import 'package:json_annotation/json_annotation.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 
+/*thay doi*/
 //part 'sign_in_http.g.dart';
 const spinkit = SpinKitPouringHourglass(
   color: Color(0xFF009688),
@@ -276,9 +277,8 @@ class _SignIn extends State<SignIn> {
   }
 
   void clickSignIn() async {
-    
     _showDialog3();
-    
+
     await Future.delayed(Duration(seconds: 2));
 
     String user = usernamecontroller.text;
